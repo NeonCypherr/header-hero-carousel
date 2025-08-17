@@ -1,58 +1,36 @@
-# React Header-Hero-Carousel
- A dynamic and visually appealing carousel snippet for your website's header and hero sections with minimal dependencies using lightning-fast React bundler, Vite, and the utility-first CSS framework, Tailwind CSS.
-
-- Live link👇:
-https://header-hero-carousel.vercel.app/
-
-- If you want to learn how to create this snip please follow this tutorial👇:
-https://youtu.be/hxIOtRsyPXo
-
-
-![Screenshot](https://github.com/Adedeji-Taiwo/Header-Hero-Carousel-Starter-Template/blob/main/src/assets/shots/largeScreen.png)
-![Screenshot](https://github.com/Adedeji-Taiwo/Header-Hero-Carousel-Starter-Template/blob/main/src/assets/shots/tabScreen.png)
-![Screenshot](https://github.com/Adedeji-Taiwo/Header-Hero-Carousel-Starter-Template/blob/main/src/assets/shots/mobileScreen.png)
-
-
-
-## Features
--  [React Vite](https://vitejs.dev/guide/): Utilize the power of Vite, a blazing-fast development server and bundler for React applications, ensuring quick startup and rapid development.
--  [Tailwind CSS](https://tailwindcss.com/docs/guides/vite/): Take advantage of Tailwind CSS's utility-first approach to effortlessly style your components and create a clean and consistent user interface.
-
-## Libraries Used:
-| Feature  | Package | Benefits |
-| ------------- | ------------- | ------------- |
-| [React Icons](https://react-icons.github.io/react-icons/) |  `react-icons` | Access a vast library of popular icons for free and easily integrate them into your React applications |
-| [SwiperJS](https://swiperjs.com/react) | `swiperjs`  | Simplify the creation of functional and reusable carousel components with stunning effects and functionality  |
-
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
-To get started with this starter template, follow these steps:
 
-### Clone this repository to your local machine:
+First, run the development server:
 
-Copy code
-`git clone https://github.com/Adedeji-Taiwo/header-hero-carousel.git`
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### Navigate to the project directory:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Copy code
-`cd header-hero-carousel`
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-### Install dependencies using npm or yarn:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Copy code
-`npm install` or `yarn install`
+## Learn More
 
-### Start the development server:
+To learn more about Next.js, take a look at the following resources:
 
-Copy code
-`npm run dev` or `yarn dev`
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Open your browser and navigate to `http://localhost:5173` to see the starter template in action.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## Deploy on Vercel
 
-## Font
-The font used in this starter template is Poppins from [Google Fonts](https://fonts.google.com/). Feel free to replace it with any other font of your choice.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Adedeji-Taiwo/Header-Hero-Carousel-Starter-Template/blob/main/LICENSE) file for details.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
